@@ -41,14 +41,14 @@ Courses | School | Duration | Effort | Frequency | Prerequisites
 :-- | :--: | :--: | :--: | :--: | :--:
 [Build a Modern Computer from First Principles: From Nand to Tetris](https://click.linksynergy.com/deeplink?id=PtFMiHYfEVk&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fbuild-a-computer) | Hebrew School of Jerusalem | 6 weeks | 5 hours/week | twice a month | basic programming knowledge
 [Build a Modern Computer from First Principles: From Nand to Tetris II](https://click.linksynergy.com/deeplink?id=PtFMiHYfEVk&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fnand2tetris2) | Hebrew School of Jerusalem | 6 weeks | 10-15 hours/week | once a month | Build a Modern Computer from First Principles: From Nand to Tetris
-[Introduction to Operating Systems](https://www.udacity.com/course/introduction-to-operating-systems--ud923)| 8 weeks | 5-8 hours/week | self-paced | Build a Modern Computer from First Principles: From Nand to Tetris II
+[Introduction to Operating Systems](https://www.udacity.com/course/introduction-to-operating-systems--ud923)| Georgia Tech | 8 weeks | 5-8 hours/week | self-paced | Build a Modern Computer from First Principles: From Nand to Tetris II
 
 
 ## Theory
 
 Courses | School | Duration | Effort | Frequency | Prerequisites
 :-- | :--: | :--: | :--: | :--: | :--:
-[Computer Science: Algorithms, Theory, and Machines](https://click.linksynergy.com/deeplink?id=PtFMiHYfEVk&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fcs-algorithms-theory-machines) | 10 weeks | 2-5 hours/week | once a month | Calculus 1A (all), basic programming
+[Computer Science: Algorithms, Theory, and Machines](https://click.linksynergy.com/deeplink?id=PtFMiHYfEVk&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fcs-algorithms-theory-machines) | Prinecton | 10 weeks | 2-5 hours/week | once a month | Calculus 1A (all), basic programming
 [Algorithms, Part I](https://click.linksynergy.com/deeplink?id=PtFMiHYfEVk&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Falgorithms-part1) | Princeton | 6 weeks | 6-12 hours/week | once a month | Computer Science: Algorithms, Theory, and Machines
 [Algorithms, Part II](https://click.linksynergy.com/deeplink?id=PtFMiHYfEVk&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Falgorithms-part2) | Princeton | 6 weeks | 6-12 hours/week | once a month | Algorithms, Part I
 
