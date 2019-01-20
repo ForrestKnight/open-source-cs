@@ -68,3 +68,12 @@ Courses | School | Duration | Effort | Frequency | Prerequisites
 :-- | :--: | :--: | :--: | :--: | :--:
 [Linux Command Line Basics](https://www.udacity.com/course/linux-command-line-basics--ud595) | Udacity | 1 week | 5 hours/week | self-paced | none
 [The Unix Workbench](https://click.linksynergy.com/deeplink?id=PtFMiHYfEVk&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Funix) | JHU | 4 weeks | 4 hours/week | once a month | none
+
+## Specializations
+
+Choose one or more of the following **specializations**:
+- [Mastering Software Development in R Specialization](https://www.coursera.org/specializations/r) by Johns Hopkins University
+- [Artificial Intelligence Engineer Nanodegree](https://www.udacity.com/ai) by IBM, Amazon, and Didi
+- [Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009) by kaggle
+- [Cybersecurity MicroMasters](https://www.edx.org/micromasters/ritx-cybersecurity) by the Rochester Institute of Technology
+- [Android Developer Nanodegree](https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801) by Google
