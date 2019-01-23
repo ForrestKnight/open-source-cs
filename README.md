@@ -68,3 +68,25 @@ Courses | School | Duration | Effort | Frequency | Prerequisites
 :-- | :--: | :--: | :--: | :--: | :--:
 [Linux Command Line Basics](https://www.udacity.com/course/linux-command-line-basics--ud595) | Udacity | 1 week | 5 hours/week | self-paced | none
 [The Unix Workbench](https://click.linksynergy.com/deeplink?id=PtFMiHYfEVk&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Funix) | JHU | 4 weeks | 4 hours/week | once a month | none
+[Version Control with Git](https://www.coursera.org/learn/version-control-with-git) | Atlassian | 2 weeks | 8 hours/week |self-paced | none
+[Linux Server Management and Security](https://www.coursera.org/learn/linux-server-management-security) | UC | 3 weeks | 5 hours/week |self-paced | Linux Command Line Basics
+
+## Networking
+
+Courses | School | Duration | Effort | Frequency | Prerequisites
+:-- | :--: | :--: | :--: | :--: | :--:
+[Internet Connection: How to Get Online?](https://www.coursera.org/learn/internet-connection-how-to-get-online?specialization=networking-basics) | CISCO | 4 weeks | 2.5-5 hours/week | self-paced | none
+[Network Protocols and Architecture](https://www.coursera.org/learn/network-protocols-architecture?specialization=networking-basics) | CISCO | 4 weeks | 2.5-5 hours/week | self-paced | Internet Connection: How to Get Online?
+[Data Communications and Network Services](https://www.coursera.org/learn/data-communication-network-services?specialization=networking-basics) | CISCO | 4 weeks | 2.5-5 hours/week | self-paced | Network Protocols and Architecture
+[Home Networking Basics](https://www.coursera.org/learn/home-networking-basics?specialization=networking-basics) | CISCO | 4 weeks | 2.5-5 hours/week | self-paced | Data Communications and Network Services
+[Introduction to Cisco Networking](https://www.coursera.org/learn/cisco-networking-introduction) | CISCO | 4 weeks | 4-7 hours/week | self-paced | Home Networking Basics
+[System Administration and IT Infrastructure Services](https://www.coursera.org/learn/system-administration-it-infrastructure-services) | GOOGLE | 2 weeks | 8-10 hours/week | self-paced | none
+
+## Cybersecurity
+
+Courses | School | Duration | Effort | Frequency | Prerequisites
+:-- | :--: | :--: | :--: | :--: | :--:
+[Introduction to Cybersecurity for Business](https://www.coursera.org/learn/intro-cyber-security-business) | UC | 3 weeks | 5 hours/week | self-paced | none
+[Cyber Threats and Attack Vectors](https://www.coursera.org/learn/cyber-threats-attack-vectors) | UC | 3 weeks | 4 hours/week | self-paced | Introduction to Cybersecurity for Business
+[Detecting and Mitigating Cyber Threats and Attacks](https://www.coursera.org/learn/detecting-cyber-attacks) | UC | 3 weeks | 4 hours/week | self-paced | Cyber Threats and Attack Vectors
+[Proactive Computer Security](https://www.coursera.org/learn/proactive-computer-security) | UC | 3 weeks | 4 hours/week | self-paced | Detecting and Mitigating Cyber Threats and Attacks
