@@ -1,8 +1,10 @@
-# The Open Source Computer Science Degree
+# The 4-Year Open Source Computer Science Degree
 
-This is a curated list of free courses from reputable universities like MIT, Stanford, and Princeton that satisfy the same requirements as an undergraduate Computer Science degree, minus general education.
+ This is a curated list of free courses from reputable universities like MIT, Stanford, and Princeton that satisfy the same requirements as an undergraduate Computer Science degree, minus general education.
 
 ## Computer Science Basics
+
+- [ ] **18 weeks(4 Months)**
 
 Courses | School | Duration | Effort | Frequency | Prerequisites
 :-- | :--: | :--: | :--: | :--: | :--:
@@ -10,6 +12,8 @@ Courses | School | Duration | Effort | Frequency | Prerequisites
 [Mathematical Thinking in Computer Science](https://click.linksynergy.com/deeplink?id=PtFMiHYfEVk&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fwhat-is-a-proof) | UC San Diego | 6 weeks | 2-5 hours/week | once a month | none
 
 ## Programming
+
+- [ ] **29 weeks(7 Months)**
 
 Courses | School | Duration | Effort | Frequency | Prerequisites
 :-- | :--: | :--: | :--: | :--: | :--:
@@ -25,6 +29,8 @@ Courses | School | Duration | Effort | Frequency | Prerequisites
 
 ## Math
 
+- [ ] **63 weeks(14 Months)**
+
 Courses | School | Duration | Effort | Frequency | Prerequisites
 :-- | :--: | :--: | :--: | :--: | :--:
 [Calculus 1A: Differentiation](https://www.edx.org/course/calculus-1a-differentiation) | MIT | 12 weeks | 6-10 hours/week | self-paced | pre-calculus
@@ -37,6 +43,8 @@ Courses | School | Duration | Effort | Frequency | Prerequisites
 
 ## Systems
 
+- [ ] **20 weeks(5 Months)**
+
 Courses | School | Duration | Effort | Frequency | Prerequisites
 :-- | :--: | :--: | :--: | :--: | :--:
 [Build a Modern Computer from First Principles: From Nand to Tetris](https://click.linksynergy.com/deeplink?id=PtFMiHYfEVk&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fbuild-a-computer) | Hebrew University of Jerusalem | 6 weeks | 5 hours/week | twice a month | basic programming knowledge
@@ -45,6 +53,8 @@ Courses | School | Duration | Effort | Frequency | Prerequisites
 
 
 ## Theory
+
+- [ ] **22 weeks(5 Months)**
 
 Courses | School | Duration | Effort | Frequency | Prerequisites
 :-- | :--: | :--: | :--: | :--: | :--:
@@ -55,6 +65,8 @@ Courses | School | Duration | Effort | Frequency | Prerequisites
 
 ## Applications
 
+- [ ] **31 weeks(7 Months)**
+
 Courses | School | Duration | Effort | Frequency | Prerequisites
 :-- | :--: | :--: | :--: | :--: | :--:
 [Software Engineering: Introduction](https://www.edx.org/course/software-engineering-introduction-ubcx-softeng1x) | UBCx | 6 weeks | 8-10 hours/week | self-paced | Java Programming: Build a Recommendation System
@@ -63,6 +75,8 @@ Courses | School | Duration | Effort | Frequency | Prerequisites
 [Cryptography I ](https://click.linksynergy.com/deeplink?id=PtFMiHYfEVk&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fcrypto)| Stanford | 7 weeks | 5 hours/week | once a month | Linear Algebra - Foundations to Frontiers & Introduction to Probability and Data
 
 ## Unix
+
+- [ ] **5 weeks(1 Months)**
 
 Courses | School | Duration | Effort | Frequency | Prerequisites
 :-- | :--: | :--: | :--: | :--: | :--:
