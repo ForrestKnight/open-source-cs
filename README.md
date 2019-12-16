@@ -19,9 +19,23 @@ Courses | School | Duration | Effort | Frequency | Prerequisites
 [Data Structures and Performance](https://click.linksynergy.com/deeplink?id=PtFMiHYfEVk&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fdata-structures-optimizing-performance)| Duke | 6 weeks | 6-10 hours/week | every week | Object Oriented Programming in Java
 [Java Programming: Principles of Software Design](https://click.linksynergy.com/deeplink?id=PtFMiHYfEVk&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fjava-programming-design-principles) | Duke | 4 weeks | 4-8 hours/week | twice a month | Java Programming: Arrays, Lists, and Structured Data
 [Java Programming: Build a Recommendation System](https://click.linksynergy.com/deeplink?id=PtFMiHYfEVk&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fjava-programming-recommender) | Duke | 4 weeks | 3-6 hours/week | once a month | Java Programming: Principles of Software Design
-[Programming Languages, Part A](https://click.linksynergy.com/deeplink?id=PtFMiHYfEVk&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fprogramming-languages) | UW | 5 weeks | 8-16 hours/week | once a month | Object Oriented Programming in Java
+
+
+### Alternative Programming Language
+
+Courses | School | Duration | Effort | Frequency | Prerequisites
+:-- | :--: | :--: | :--: | :--: | :--:
+[Python For Everybody Specialization](https://www.coursera.org/specializations/python) | University Of Michigan | 16 weeks | 12 hours/week | Depends on courses within | none
+
+
+### Programming Theory
+
+Courses | School | Duration | Effort | Frequency | Prerequisites
+:-- | :--: | :--: | :--: | :--: | :--:
+[Programming Languages, Part A](https://click.linksynergy.com/deeplink?id=PtFMiHYfEVk&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fprogramming-languages) | UW | 5 weeks | 8-16 hours/week | once a month | Object Oriented Programming in Java Or Finished Phython Specialization
 [Programming Languages, Part B](https://click.linksynergy.com/deeplink?id=PtFMiHYfEVk&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fprogramming-languages-part-b) | UW | 3 weeks | 8-16 hours/week | once a month | Programming Languages, Part A
 [Programming Languages, Part C](https://click.linksynergy.com/deeplink?id=PtFMiHYfEVk&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fprogramming-languages-part-c) | UW | 3 weeks | 8-16 hours/week | once a month | Programming Languages, Part B
+
 
 ## Math
 
@@ -68,3 +82,4 @@ Courses | School | Duration | Effort | Frequency | Prerequisites
 :-- | :--: | :--: | :--: | :--: | :--:
 [Linux Command Line Basics](https://www.udacity.com/course/linux-command-line-basics--ud595) | Udacity | 1 week | 5 hours/week | self-paced | none
 [The Unix Workbench](https://click.linksynergy.com/deeplink?id=PtFMiHYfEVk&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Funix) | JHU | 4 weeks | 4 hours/week | once a month | none
+
