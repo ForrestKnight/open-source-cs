@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Router 1`] = `
+<BrowserRouter>
+  <div
+    data-loaded={false}
+    data-loading={false}
+    id="Router"
+  >
+    <Header />
+    <Switch>
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/StyleGuide"
+      />
+      <Route
+        component={[Function]}
+        path="/*"
+      />
+    </Switch>
+    <Footer />
+  </div>
+</BrowserRouter>
+`;

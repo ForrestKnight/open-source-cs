@@ -1,0 +1,10 @@
+#Router {
+    opacity: 0;
+
+    &[data-loading=true] {
+        &[data-loaded=true] {
+            transition: opacity 300ms;
+            opacity: 1;
+        }
+    }
+}

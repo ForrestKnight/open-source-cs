@@ -1,0 +1,70 @@
+#MobileNavigation {
+    @media #{$desktop_breakpoint} {
+        display: none;
+    }
+}
+
+
+.MobileNavigation__button {
+    cursor: pointer;
+    position: fixed;
+    top: 10px;
+    right: 12px;
+    font-size: 2.5em;
+    z-index: 8;
+
+    &[data-navMenu_Mobile=false] {
+        color: $primaryColor;
+    }
+
+    &[data-navMenu_Mobile=true] {
+        color: $white;
+    }
+}
+
+
+.MobileNavigation__menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    &[data-active=false] {
+        opacity: 0;
+        transition: 200ms;
+        width: 0;
+        height: 0;
+    }
+
+    &[data-active=true] {
+        display: block;
+        opacity: 1;
+        transition: 200ms;
+        background: desaturate(darken($primaryColor, 35%), 70%);
+        z-index: 7;
+        width: 100%;
+        height: 100%;
+
+        @media #{$tablet_breakpoint} {
+            width: 350px;
+        }
+    }
+}
+
+
+.MobileNavigation__list {
+    padding: 0;
+    margin-top: 80px;
+
+    &[data-active=false] {
+        opacity: 0;
+    }
+
+    &[data-active=true] {
+        opacity: 1;
+        transition: opacity 200ms ease-in;
+    }
+
+    @media #{$tablet_breakpoint} {
+        margin-top: 100px;
+    }
+}

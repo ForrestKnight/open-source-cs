@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Home button component 1`] = `
+<section
+  id="HomeButton"
+  onClick={[Function]}
+>
+  <NavLink
+    activeClassName="active"
+    aria-current="page"
+    className="HomeButton__logo"
+    to="/"
+  >
+    <img
+      alt="Home"
+      src="/dist/images/homeButton/HomeButtonMobileNav.png"
+    />
+  </NavLink>
+</section>
+`;

@@ -1,0 +1,18 @@
+body {
+    background: #ECEFF1;
+    color: rgba(0,0,0,0.9);
+    font-family: "Montserrat", Roboto;
+}
+
+
+#message {
+    background: white;
+    max-width: 360px;
+    margin: 100px auto 16px;
+    padding: 32px 24px 16px;
+    border-radius: 4px;
+}
+
+h2, h1, p {
+    text-align: center;
+}

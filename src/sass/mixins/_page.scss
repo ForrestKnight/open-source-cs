@@ -1,0 +1,17 @@
+@mixin page {
+    padding-top: 70px;
+    width: 300px;
+    margin: 0 auto;
+
+    @media #{$tablet_breakpoint} {
+        width: 80%;
+    }
+
+    @media #{$desktop_breakpoint} {
+        max-width: 1100px;
+    }
+
+    @media #{$ultrawide_breakpoint} {
+        max-width: 1500px;
+    }
+}

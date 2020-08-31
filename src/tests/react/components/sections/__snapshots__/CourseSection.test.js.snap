@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render CourseSection with courses 1`] = `
+<article
+  className="CourseSection"
+  id="SectionName"
+>
+  <header
+    className="CourseSection__header"
+  >
+    <h2>
+      Section Name
+    </h2>
+  </header>
+  <section
+    className="CourseSection__courses"
+  />
+</article>
+`;
+
+exports[`Render CourseSection without courses 1`] = `
+<article
+  className="CourseSection"
+  id="SectionName"
+>
+  <header
+    className="CourseSection__header"
+  >
+    <h2>
+      Section Name
+    </h2>
+  </header>
+  <section
+    className="CourseSection__courses"
+  />
+</article>
+`;

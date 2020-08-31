@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render MobileNavigationLink component with external link 1`] = `
+<li
+  className="MobileNavigationLink"
+>
+  <a
+    className="MobileNavigationLink__link"
+    href="https://www.google.com"
+    onClick={[Function]}
+    rel="noopener"
+    target="_blank"
+  >
+    External link
+  </a>
+</li>
+`;
+
+exports[`Render MobileNavigationLink component with external link with sublink 1`] = `
+<li
+  className="MobileNavigationLink"
+>
+  <a
+    className="MobileNavigationLink__link"
+    href="https://www.google.com"
+    onClick={[Function]}
+    rel="noopener"
+    target="_blank"
+  >
+    External link with sublink
+  </a>
+  <button
+    className="MobileNavigationLink__sublink_button"
+    data-active={false}
+    onClick={[Function]}
+  >
+    ▼
+  </button>
+  <ul
+    className="MobileNavigationLink__sublink_list"
+    data-active={false}
+    onClick={[Function]}
+  >
+    <li
+      className="MobileNavigationLink__sublink"
+      key="External sublink"
+    >
+      <a
+        className="MobileNavigationLink__sublink_link"
+        href="https://www.google.com"
+        onClick={0}
+      >
+        External sublink
+      </a>
+    </li>
+  </ul>
+</li>
+`;
+
+exports[`Render MobileNavigationLink component with internal link 1`] = `
+<li
+  className="MobileNavigationLink"
+>
+  <NavLink
+    activeClassName="active"
+    aria-current="page"
+    className="MobileNavigationLink__link"
+    onClick={[Function]}
+    to="/"
+  >
+    Internal link
+  </NavLink>
+</li>
+`;
+
+exports[`Render MobileNavigationLink component with internal link and sublink 1`] = `
+<li
+  className="MobileNavigationLink"
+>
+  <NavLink
+    activeClassName="active"
+    aria-current="page"
+    className="MobileNavigationLink__link"
+    onClick={[Function]}
+    to="/"
+  >
+    Internal link with sublink
+  </NavLink>
+  <button
+    className="MobileNavigationLink__sublink_button"
+    data-active={false}
+    onClick={[Function]}
+  >
+    ▼
+  </button>
+  <ul
+    className="MobileNavigationLink__sublink_list"
+    data-active={false}
+    onClick={[Function]}
+  >
+    <li
+      className="MobileNavigationLink__sublink"
+      key="Internal sublink"
+    >
+      <NavLink
+        activeClassName="active"
+        aria-current="page"
+        className="MobileNavigationLink__sublink_link"
+        onClick={0}
+        to="/"
+      >
+        Internal sublink
+      </NavLink>
+    </li>
+  </ul>
+</li>
+`;
+
+exports[`Render MobileNavigationLink component without links 1`] = `
+<li
+  className="MobileNavigationLink"
+>
+  <a
+    className="MobileNavigationLink__link"
+    onClick={[Function]}
+    rel="noopener"
+    target="_blank"
+  />
+</li>
+`;

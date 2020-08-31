@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render DesktopNavigationLink component with external link 1`] = `
+<li
+  className="DesktopNavigationLink"
+>
+  <a
+    className="DesktopNavigationLink__link"
+    href="https://www.google.com"
+  >
+    External link
+  </a>
+</li>
+`;
+
+exports[`Render DesktopNavigationLink component with external link with sublink 1`] = `
+<li
+  className="DesktopNavigationLink"
+>
+  <a
+    className="DesktopNavigationLink__link"
+    href="https://www.google.com"
+  >
+    External link with sublink
+  </a>
+  <ul
+    className="DesktopNavigationLink__sublink_list"
+  >
+    <li
+      className="DesktopNavigationLink__sublink"
+      key="External sublink"
+    >
+      <a
+        className="DesktopNavigationLink__sublink_link"
+        href="https://www.google.com"
+      >
+        External sublink
+      </a>
+    </li>
+  </ul>
+</li>
+`;
+
+exports[`Render DesktopNavigationLink component with internal link 1`] = `
+<li
+  className="DesktopNavigationLink"
+>
+  <NavLink
+    activeClassName="active"
+    aria-current="page"
+    className="DesktopNavigationLink__link"
+    to="/"
+  >
+    Internal link
+  </NavLink>
+</li>
+`;
+
+exports[`Render DesktopNavigationLink component with internal link and sublink 1`] = `
+<li
+  className="DesktopNavigationLink"
+>
+  <NavLink
+    activeClassName="active"
+    aria-current="page"
+    className="DesktopNavigationLink__link"
+    to="/"
+  >
+    Internal link with sublink
+  </NavLink>
+  <ul
+    className="DesktopNavigationLink__sublink_list"
+  >
+    <li
+      className="DesktopNavigationLink__sublink"
+      key="Internal sublink"
+    >
+      <NavLink
+        activeClassName="active"
+        aria-current="page"
+        className="DesktopNavigationLink__sublink_link"
+        to="/"
+      >
+        Internal sublink
+      </NavLink>
+    </li>
+  </ul>
+</li>
+`;
+
+exports[`Render DesktopNavigationLink component without links 1`] = `
+<li
+  className="DesktopNavigationLink"
+>
+  <a
+    className="DesktopNavigationLink__link"
+  />
+</li>
+`;

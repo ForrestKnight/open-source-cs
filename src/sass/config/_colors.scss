@@ -1,0 +1,24 @@
+/* Gradient shadows */
+$shadow: rgba(0, 0, 0, 0.3);
+$shadow_light: rgba(0, 0, 0, 0.1);
+$shadow_thick: rgba(0, 0, 0, 0.5);
+
+
+/* Grayscale */
+$black: #080808;
+$gray: #414141;
+$white: #e8e8e8;
+
+
+/* Theme Colors */
+$primaryColor: #6563ff;
+$primaryColor_light: saturate(lighten($primaryColor, 10%), 20%);
+$primaryColor_dark: desaturate(darken($primaryColor, 20%), 30%);
+
+$backgroundColor: $white;
+
+$headerColor: $primaryColor;
+$textColor: $black;
+$linkColor: $primaryColor;
+
+

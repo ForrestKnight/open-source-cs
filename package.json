@@ -1,0 +1,79 @@
+{
+  "name": "javascriptreactboilerplate",
+  "version": "1.0.0",
+  "description": "A better React boilerplate.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "start:dev": "concurrently --kill-others \"npm run build:dev_Nodemon\" \"npm run build:dev_Webpack\"",
+    "build:dev": "webpack",
+    "build:dev_Nodemon": "nodemon src/server.js -e js,css,html,hbs",
+    "build:dev_Webpack": "webpack --watch",
+    "build:prod": "webpack -p --env production",
+    "test": "jest --config=jest.config.json",
+    "test:watch": "npm run test -- --watch",
+    "deploy:firebase": "npm run build:prod & firebase deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobbyB97/JavascriptReactBoilerplate.git"
+  },
+  "keywords": [
+    "javascript",
+    "react",
+    "redux",
+    "router",
+    "node.js",
+    "node",
+    "npm",
+    "webpack",
+    "express"
+  ],
+  "author": "Robby Bergers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobbyB97/JavascriptReactBoilerplate/issues"
+  },
+  "homepage": "https://github.com/RobbyB97/JavascriptReactBoilerplate#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap": "^4.3.1",
+    "chalk": "^2.4.2",
+    "concurrently": "^4.1.1",
+    "css-loader": "^0.28.4",
+    "express": "^4.17.1",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "nodemon": "^1.19.1",
+    "normalize.css": "^7.0.0",
+    "raf": "^3.3.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.0.0",
+    "react-media": "^1.10.0",
+    "react-redux": "^5.0.5",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "uuid": "^3.1.0",
+    "validator": "^11.0.0",
+    "webpack": "^3.1.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^8.0.2",
+    "enzyme": "^3.0.0",
+    "enzyme-adapter-react-16": "^1.0.0",
+    "enzyme-to-json": "^3.0.1",
+    "jest": "^20.0.4",
+    "node-sass": "^4.14.1",
+    "parallelshell": "^3.0.1",
+    "react-test-renderer": "^16.0.0",
+    "sass": "^1.22.7",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
