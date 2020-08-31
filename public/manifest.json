@@ -1,0 +1,8 @@
+{
+    "short_name": "Boilerplate",
+    "name": "React Redux Boilerplate (JavaScript Edition)",
+    "start_url": "/",
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "display": "standalone"
+}

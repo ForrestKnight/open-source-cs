@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html data-Mobile_Nav=false>
+    <head>
+        <!-- Local files and metadata -->
+        <link rel="stylesheet" href="/dist/bundle.css"/>
+        <link rel="icon" type="image/png" href="/dist/images/icons/favicon.png"/>
+        <title>Redux Boilerplate</title>
+
+        <!-- SEO, UI/UX -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="React Redux Boilerplate (JavaScript edition)" />
+        <link rel="manifest" href="/manifest.json">
+    
+        <!-- Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap" />
+
+        <!-- Page Loader -->
+        <link rel="stylesheet" href="/dist/page-loader.css" />
+    </head>
+
+    <body>
+        <main id="app"></main>
+
+        <div class="page-loader" data-loading=true data-loaded=false>
+            <div>
+                <img src="/dist/images/icons/favicon.png" alt="loading"/>
+            </div>
+        </div>
+
+        <div class="react-config">
+            <!-- Import React -->
+            <script src="https://unpkg.com/react@16.0.0/umd/react.development.js"></script>
+            <script src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.development.js"></script>
+            <script src="/dist/bundle.js"></script>
+            <!-- End import React -->
+        </div>
+    </body>
+</html>

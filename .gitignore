@@ -1,0 +1,25 @@
+# Logs
+logs
+*.log
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Dependency directories
+node_modules/
+
+# dotenv environment variables file
+.env
+.env.test
+
+# Source maps
+*.map
+
+# Bundle output
+public/dist/bundle.css
+public/dist/bundle.js
+
+# Firebase
+/.firebase/
+.firebaserc
+firebase.json

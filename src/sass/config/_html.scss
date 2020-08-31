@@ -1,0 +1,61 @@
+html {
+    font-family: $sansSerif;
+    background: $backgroundColor;
+
+    &[data-Mobile_Nav=false] {
+        overflow: unset;
+        overflow-x: hidden;
+    }
+    
+    &[data-Mobile_Nav=true] {
+        overflow: hidden;
+    }
+
+    @media #{$tablet_breakpoint} {
+        &[data-Mobile_Nav=false], &[data-Mobile_Nav=true] {
+            overflow: unset;
+        }
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $headerColor;
+}
+
+p {
+    color: $textColor;
+}
+
+i {}
+
+em {}
+
+b {}
+
+mark {}
+
+span {}
+
+small {}
+
+strong {}
+
+u {}
+
+code {}
+
+cite {}
+
+a {
+    color: $linkColor;
+}
+
+button {}
+
+ol {
+    li {}
+}
+
+ul {
+    li {}
+}

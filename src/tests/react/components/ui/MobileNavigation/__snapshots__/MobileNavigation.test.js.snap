@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render MobileNavigation component 1`] = `
+<section
+  id="MobileNavigation"
+>
+  <div
+    className="MobileNavigation__button"
+    onClick={[Function]}
+  >
+    ☰
+  </div>
+  <nav
+    className="MobileNavigation__menu"
+  >
+    <ul
+      className="MobileNavigation__list"
+    />
+  </nav>
+</section>
+`;

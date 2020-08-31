@@ -1,0 +1,28 @@
+#DesktopNavigation {
+    display: none;
+
+    @media #{$desktop_breakpoint} {
+        display: block;
+    }
+}
+
+
+.DesktopNavigation__nav {
+    position: fixed;
+    right: 1.5em;
+    top: 2em;
+    z-index: 8;
+}
+
+
+.DesktopNavigation__list {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: calc(100vw - 120px);
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}

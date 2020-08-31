@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Wildcard page 1`] = `
+<div
+  id="Wildcard"
+/>
+`;
