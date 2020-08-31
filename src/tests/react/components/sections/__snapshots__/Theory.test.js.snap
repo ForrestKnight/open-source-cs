@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Theory section 1`] = `
+<div
+  className="Theory"
+  id="Theory"
+/>
+`;

@@ -38,4 +38,17 @@
 @import 
     './components/pages/Default',
     './components/pages/StyleGuide',
-    './components/pages/Wildcard';
+    './components/pages/Wildcard',
+    './components/pages/Home';
+
+
+/* Section Components */
+@import
+    './components/sections/Description',
+    './components/sections/CSBasics',
+    './components/sections/Programming',
+    './components/sections/Math',
+    './components/sections/Systems',
+    './components/sections/Theory',
+    './components/sections/Applications',
+    './components/sections/Unix';
