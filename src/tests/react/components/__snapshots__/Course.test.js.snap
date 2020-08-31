@@ -1,8 +1,74 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Render Course component 1`] = `
+exports[`Render Course component with prerequisites 1`] = `
 <div
   className="Course"
-  id="Course"
-/>
+>
+  <a
+    className="Course__name"
+    href="Link to course"
+  >
+    Name of course
+  </a>
+  <p
+    className="Course__school"
+  >
+    School
+  </p>
+  <p
+    className="Course__duration"
+  >
+    Duration
+     weeks
+  </p>
+  <p
+    className="Course__effort"
+  >
+    Effort
+     hours/week
+  </p>
+  <p
+    className="Course__frequency"
+  >
+    Frequency
+  </p>
+  <div
+    className="Course__prerequisites"
+  />
+</div>
+`;
+
+exports[`Render Course component without prerequisites 1`] = `
+<div
+  className="Course"
+>
+  <a
+    className="Course__name"
+    href="Link to course"
+  >
+    Name of course
+  </a>
+  <p
+    className="Course__school"
+  >
+    School
+  </p>
+  <p
+    className="Course__duration"
+  >
+    Duration
+     weeks
+  </p>
+  <p
+    className="Course__effort"
+  >
+    Effort
+     hours/week
+  </p>
+  <p
+    className="Course__frequency"
+  >
+    Frequency
+  </p>
+</div>
 `;

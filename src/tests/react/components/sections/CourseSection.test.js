@@ -7,15 +7,29 @@ import {shallow} from 'enzyme';
 import {CourseSection} from '../../../../react/components/sections/CourseSection';
 
 
+/* Data */
+import courseSections from '../../../fixtures/courseSections';
+
+
 /* Test Config */
 let component;
-beforeEach(() => {
-    component = shallow(<CourseSection />);
-});
 
 
 /* Tests */
-test('Render CourseSection section', () => {
+test('Render CourseSection without courses', () => {
+    component = shallow(
+        <CourseSection {...courseSections[0]}/>
+    );
+
+    expect(component).toMatchSnapshot();
+});
+
+
+test('Render CourseSection with courses', () => {
+    component = shallow(
+        <CourseSection {...courseSections[1]}/>
+    );
+
     expect(component).toMatchSnapshot();
 });
 

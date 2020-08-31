@@ -7,15 +7,29 @@ import {shallow} from 'enzyme';
 import {Course} from '../../../react/components/Course';
 
 
+/* Data */
+import courses from '../../fixtures/courses';
+
+
 /* Test Config */
 let component;
-beforeEach(() => {
-    component = shallow(<Course />);
-});
 
 
 /* Tests */
-test('Render Course component', () => {
+test('Render Course component without prerequisites', () => {
+    component = shallow(
+        <Course {...courses[0]}/>
+    );
+
+    expect(component).toMatchSnapshot();
+});
+
+
+test('Render Course component with prerequisites', () => {
+    component = shallow(
+        <Course {...courses[1]}/>
+    );
+    
     expect(component).toMatchSnapshot();
 });
 
