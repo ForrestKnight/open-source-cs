@@ -1,8 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Render Applications section 1`] = `
-<div
-  className="Applications"
-  id="Applications"
-/>
-`;

@@ -45,10 +45,9 @@
 /* Section Components */
 @import
     './components/sections/Description',
-    './components/sections/CSBasics',
-    './components/sections/Programming',
-    './components/sections/Math',
-    './components/sections/Systems',
-    './components/sections/Theory',
-    './components/sections/Applications',
-    './components/sections/Unix';
+    './components/sections/CourseSection';
+
+
+/* Other Components */
+@import
+    './components/Course';

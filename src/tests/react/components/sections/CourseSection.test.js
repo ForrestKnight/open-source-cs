@@ -4,18 +4,18 @@ import {shallow} from 'enzyme';
 
 
 /* Component */
-import {Theory} from '../../../../react/components/sections/Theory';
+import {CourseSection} from '../../../../react/components/sections/CourseSection';
 
 
 /* Test Config */
 let component;
 beforeEach(() => {
-    component = shallow(<Theory />);
+    component = shallow(<CourseSection />);
 });
 
 
 /* Tests */
-test('Render Theory section', () => {
+test('Render CourseSection section', () => {
     expect(component).toMatchSnapshot();
 });
 

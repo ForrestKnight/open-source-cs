@@ -1,10 +1,10 @@
 /* Packages */
 import React from 'react';
-import {connect} from 'react-redux';
+import Course from '../Course';
 
 
 /* Component */
-export class Systems extends React.Component {
+export class CourseSection extends React.Component {
     constructor(props) {
         super(props);
     }
@@ -12,7 +12,7 @@ export class Systems extends React.Component {
 
     render() {
         return (
-            <div id="Systems" className="Systems">
+            <div id={this.props.name} className="CourseSection">
                 
             </div>
         );
@@ -20,4 +20,4 @@ export class Systems extends React.Component {
 }
 
 
-export default Systems;
+export default Math;

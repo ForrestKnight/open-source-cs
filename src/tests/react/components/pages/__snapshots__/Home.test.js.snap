@@ -6,12 +6,5 @@ exports[`Render Home page 1`] = `
   id="Home"
 >
   <Description />
-  <CSBasics />
-  <Programming />
-  <Math />
-  <Systems />
-  <Theory />
-  <Applications />
-  <Unix />
 </div>
 `;
