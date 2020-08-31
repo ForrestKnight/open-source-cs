@@ -16,8 +16,9 @@ export class CourseSection extends React.Component {
                 <header className="CourseSection__header">
                     <h2>{this.props.name}</h2>
                 </header>
+
                 <section className="CourseSection__courses">
-                    {this.props.coursees &&
+                    {this.props.courses &&
                         this.props.courses.map((course) => (
                             <Course {...course} />
                         ))

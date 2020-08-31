@@ -14,7 +14,28 @@ exports[`Render CourseSection with courses 1`] = `
   </header>
   <section
     className="CourseSection__courses"
-  />
+  >
+    <Course
+      0="C"
+      1="o"
+      2="u"
+      3="r"
+      4="s"
+      5="e"
+      6=" "
+      7="1"
+    />
+    <Course
+      0="C"
+      1="o"
+      2="u"
+      3="r"
+      4="s"
+      5="e"
+      6=" "
+      7="2"
+    />
+  </section>
 </article>
 `;
 

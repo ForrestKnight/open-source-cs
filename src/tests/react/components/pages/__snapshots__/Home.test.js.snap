@@ -6,5 +6,153 @@ exports[`Render Home page 1`] = `
   id="Home"
 >
   <Description />
+  <CourseSection
+    courses={
+      Array [
+        Object {
+          "duration": "10",
+          "effort": "10-20",
+          "frequency": "Self-paced",
+          "name": Object {
+            "link": "https://www.edx.org/course/cs50s-introduction-to-computer-science",
+            "text": "Intro to Computer Science",
+          },
+          "school": "Harvard",
+        },
+        Object {
+          "duration": "6",
+          "effort": "2-5",
+          "frequency": "Once a month",
+          "name": Object {
+            "link": "https://www.coursera.org/learn/what-is-a-proof",
+            "text": "Mathematical Thinking in Computer Science",
+          },
+          "school": "UC San Diego",
+        },
+      ]
+    }
+    name="CS Basics"
+  />
+  <CourseSection
+    courses={
+      Array [
+        Object {
+          "duration": "4",
+          "effort": "4-8",
+          "frequency": "Twice a month",
+          "name": Object {
+            "link": "https://www.coursera.org/learn/java-programming",
+            "text": "Java Programming: Solving Problems with Software",
+          },
+          "school": "Duke",
+        },
+        Object {
+          "duration": "4",
+          "effort": "4-8",
+          "frequency": "Twice a month",
+          "name": Object {
+            "link": "https://www.coursera.org/learn/java-programming-arrays-lists-data",
+            "text": "Java Programming: Arrays, Lists, and Structured Data",
+          },
+          "prerequisites": Array [
+            "Java Programming: Solving Problems with Software",
+          ],
+          "school": "Duke",
+        },
+        Object {
+          "duration": "6",
+          "effort": "4-6",
+          "frequency": "Every week",
+          "name": Object {
+            "link": "https://www.coursera.org/learn/object-oriented-java",
+            "text": "Object Oriented Programming in Java",
+          },
+          "prerequisites": Array [
+            "Java Programming: Arrays, Lists, and Structured Data",
+          ],
+          "school": "Duke",
+        },
+        Object {
+          "duration": "6",
+          "effort": "6-10",
+          "frequency": "Every week",
+          "name": Object {
+            "link": "https://www.coursera.org/learn/data-structures-optimizing-performance",
+            "text": "Data Structures and Performance",
+          },
+          "prerequisites": Array [
+            "Object Oriented Programming in Java",
+          ],
+          "school": "Duke",
+        },
+        Object {
+          "duration": "4",
+          "effort": "4-8",
+          "frequency": "Twice a month",
+          "name": Object {
+            "link": "https://www.coursera.org/learn/java-programming-design-principles",
+            "text": "Java Programming: Principles of Software Design",
+          },
+          "prerequisites": Array [
+            "Java Programming: Arrays, Lists, and Structured Data",
+          ],
+          "school": "Duke",
+        },
+        Object {
+          "duration": "4",
+          "effort": "3-6",
+          "frequency": "Once a month",
+          "name": Object {
+            "link": "https://www.coursera.org/learn/java-programming-recommender",
+            "text": "Java Programming: Build a Recommendation System",
+          },
+          "prerequisites": Array [
+            "Java Programming: Principles of Software Design",
+          ],
+          "school": "Duke",
+        },
+        Object {
+          "duration": "5",
+          "effort": "8-16",
+          "frequency": "Once a month",
+          "name": Object {
+            "link": "coursera.org/learn/programming-languages",
+            "text": "Programming Languages, Part A",
+          },
+          "prerequisites": Array [
+            "Object Oriented Programming in Java",
+          ],
+          "school": "UW",
+        },
+        Object {
+          "duration": "3",
+          "effort": "8-16",
+          "frequency": "Once a month",
+          "name": Object {
+            "link": "https://www.coursera.org/learn/programming-languages-part-b",
+            "text": "Programming Languages, Part B",
+          },
+          "prerequisites": Array [
+            "Programming Languages, Part A",
+          ],
+          "school": "UW",
+        },
+        Object {
+          "duration": "3",
+          "effort": "8-16",
+          "frequency": "Once a month",
+          "name": Object {
+            "link": "https://www.coursera.org/learn/programming-languages-part-c",
+            "text": "Programming Languages, Part C",
+          },
+          "prerequisites": Array [
+            "Programming Languages, Part B",
+          ],
+          "school": "UW",
+        },
+      ]
+    }
+    name="Programming"
+  />
 </div>
 `;

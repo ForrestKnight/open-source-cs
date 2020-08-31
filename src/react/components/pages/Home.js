@@ -9,7 +9,12 @@ import {page_ID__Set} from '../../redux/actions/page';
 
 /* Components */
 import Description from '../sections/Description';
-import CourseSection from '../sections/CourseSection'; 
+import CourseSection from '../sections/CourseSection';
+
+
+/* Data */
+import CSBasicsCourses from '../../data/CSBasicsCourses';
+import ProgrammingCourses from '../../data/ProgrammingCourses';
 
 
 /* Component */
@@ -33,6 +38,16 @@ export class Home extends React.Component {
         return (
             <div id="Home" className="Home">
                 <Description />
+                
+                <CourseSection 
+                    name="CS Basics"
+                    courses={CSBasicsCourses}
+                />
+
+                <CourseSection 
+                    name="Programming"
+                    courses={ProgrammingCourses}
+                />
             </div>
         );
     }
