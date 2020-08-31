@@ -8,7 +8,7 @@ const chalk = require('chalk');
 
 
 /* Local files */
-const publicPath = path.join(__dirname, '../public');
+const publicPath = path.join(__dirname, '../docs');
 const mainRouter = require('./routers/app');
 
 

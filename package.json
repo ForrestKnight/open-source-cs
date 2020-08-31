@@ -1,7 +1,7 @@
 {
-  "name": "javascriptreactboilerplate",
+  "name": "open-source-cs",
   "version": "1.0.0",
-  "description": "A better React boilerplate.",
+  "description": "A free, open source Computer Science degree",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
@@ -11,8 +11,7 @@
     "build:dev_Webpack": "webpack --watch",
     "build:prod": "webpack -p --env production",
     "test": "jest --config=jest.config.json",
-    "test:watch": "npm run test -- --watch",
-    "deploy:firebase": "npm run build:prod & firebase deploy"
+    "test:watch": "npm run test -- --watch"
   },
   "repository": {
     "type": "git",
@@ -32,9 +31,9 @@
   "author": "Robby Bergers",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RobbyB97/JavascriptReactBoilerplate/issues"
+    "url": "https://github.com/RobbyB97/open-source-cs"
   },
-  "homepage": "https://github.com/RobbyB97/JavascriptReactBoilerplate#readme",
+  "homepage": "https://github.com/RobbyB97/open-source-cs",
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
