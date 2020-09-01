@@ -8,7 +8,9 @@ exports[`Render Course component with prerequisites 1`] = `
     className="Course__name"
     href="Link to course"
   >
-    Name of course
+    <h3>
+      Name of course
+    </h3>
   </a>
   <p
     className="Course__school"
@@ -34,7 +36,12 @@ exports[`Render Course component with prerequisites 1`] = `
   </p>
   <div
     className="Course__prerequisites"
-  />
+  >
+    <p>
+      Prerequisite 1
+      Prerequisite 2
+    </p>
+  </div>
 </div>
 `;
 
@@ -46,7 +53,9 @@ exports[`Render Course component without prerequisites 1`] = `
     className="Course__name"
     href="Link to course"
   >
-    Name of course
+    <h3>
+      Name of course
+    </h3>
   </a>
   <p
     className="Course__school"

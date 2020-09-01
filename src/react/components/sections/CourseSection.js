@@ -20,7 +20,7 @@ export class CourseSection extends React.Component {
                 <section className="CourseSection__courses">
                     {this.props.courses &&
                         this.props.courses.map((course) => (
-                            <Course {...course} />
+                            <Course key={course.name.text} {...course} />
                         ))
                     }
                 </section>

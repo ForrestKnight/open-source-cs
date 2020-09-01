@@ -16,7 +16,7 @@ export class Course extends React.Component {
                     className="Course__name"
                     href={this.props.name.link}
                 >
-                    {this.props.name.text}
+                    <h3>{this.props.name.text}</h3>
                 </a>
 
                 <p className="Course__school">
@@ -37,9 +37,7 @@ export class Course extends React.Component {
 
                 {this.props.prerequisites &&
                     <div className="Course__prerequisites">
-                        {this.props.prerequisites.map((prereq) => {
-                            <p>{prereq}</p>
-                        })}
+                        <p>{this.props.prerequisites}</p>
                     </div>
                 }
             </div>

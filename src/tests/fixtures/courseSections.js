@@ -2,8 +2,13 @@ export default [{
     name: "Section Name"
 }, {
     name: "Section Name",
-    courses: [
-        "Course 1",
-        "Course 2"
-    ]
+    courses: [{
+        name: {
+            text: "Course 1"
+        }
+    }, {
+        name: {
+            text: "Course 2"
+        }
+    }]
 }]
