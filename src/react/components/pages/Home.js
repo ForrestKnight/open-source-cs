@@ -17,6 +17,9 @@ import CSBasicsCourses from '../../data/CSBasicsCourses';
 import ProgrammingCourses from '../../data/ProgrammingCourses';
 import MathCourses from '../../data/MathCourses';
 import SystemsCourses from '../../data/SystemsCourses';
+import TheoryCourses from '../../data/TheoryCourses';
+import ApplicationsCourses from '../../data/ApplicationsCourses';
+import UnixCourses from '../../data/UnixCourses';
 
 
 /* Component */
@@ -59,6 +62,21 @@ export class Home extends React.Component {
                 <CourseSection 
                     name="Systems"
                     courses={SystemsCourses}
+                />
+
+                <CourseSection 
+                    name="Theory"
+                    courses={TheoryCourses}
+                />
+
+                <CourseSection 
+                    name="Applications"
+                    courses={ApplicationsCourses}
+                />
+
+                <CourseSection 
+                    name="Unix"
+                    courses={UnixCourses}
                 />
             </div>
         );

@@ -289,5 +289,141 @@ exports[`Render Home page 1`] = `
     }
     name="Systems"
   />
+  <CourseSection
+    courses={
+      Array [
+        Object {
+          "duration": "10",
+          "effort": "2-5",
+          "frequency": "Once a month",
+          "name": Object {
+            "link": "https://www.coursera.org/learn/cs-algorithms-theory-machines",
+            "text": "Computer Science: Algorithms, Theory and Machines",
+          },
+          "prerequisites": Array [
+            "Calculus 1A",
+            "Calculus 1B",
+            "Calculus 1C",
+            "Basic programming",
+          ],
+          "school": "Princeton",
+        },
+        Object {
+          "duration": "6",
+          "effort": "6-12",
+          "frequency": "Once a month",
+          "name": Object {
+            "link": "https://www.coursera.org/learn/algorithms-part1",
+            "text": "Algorithms, Part I",
+          },
+          "prerequisites": Array [
+            "Computer Science: Algorithms, Theory and Machines",
+          ],
+          "school": "Princeton",
+        },
+        Object {
+          "duration": "6",
+          "effort": "6-12",
+          "frequency": "Once a month",
+          "name": Object {
+            "link": "https://www.coursera.org/learn/algorithms-part2",
+            "text": "Algorithms, Part II",
+          },
+          "prerequisites": Array [
+            "Algorithms, Part I",
+          ],
+          "school": "Princeton",
+        },
+      ]
+    }
+    name="Theory"
+  />
+  <CourseSection
+    courses={
+      Array [
+        Object {
+          "duration": "6",
+          "effort": "8-10",
+          "frequency": "Self-paced",
+          "name": Object {
+            "link": "https://www.edx.org/course/software-engineering-introduction",
+            "text": "Software Engineering: Introduction",
+          },
+          "prerequisites": Array [
+            "Java Programming: Build a Recommendation System",
+          ],
+          "school": "UBCx",
+        },
+        Object {
+          "duration": "11",
+          "effort": "5-7",
+          "frequency": "Twice a month",
+          "name": Object {
+            "link": "https://www.coursera.org/learn/machine-learning",
+            "text": "Machine Learning",
+          },
+          "prerequisites": Array [
+            "Linear Algebra - Foundations to Frontiers",
+          ],
+          "school": "Stanford",
+        },
+        Object {
+          "duration": "7",
+          "effort": "4-6",
+          "frequency": "Twice a month",
+          "name": Object {
+            "link": "https://www.coursera.org/learn/database-management",
+            "text": "Database Management Essentials",
+          },
+          "prerequisites": Array [
+            "Basic programming & CS knowledge",
+          ],
+          "school": "CU",
+        },
+        Object {
+          "duration": "7",
+          "effort": "5",
+          "frequency": "Once a month",
+          "name": Object {
+            "link": "https://www.coursera.org/learn/crypto",
+            "text": "Cryptography I",
+          },
+          "prerequisites": Array [
+            "Linear Algebra - Foundations to Frontiers",
+            "Introduction to Probability and Data",
+          ],
+          "school": "Stanford",
+        },
+      ]
+    }
+    name="Applications"
+  />
+  <CourseSection
+    courses={
+      Array [
+        Object {
+          "duration": "1",
+          "effort": "5",
+          "frequency": "Self-paced",
+          "name": Object {
+            "link": "https://www.udacity.com/course/linux-command-line-basics--ud595",
+            "text": "Linux Command Line Basics",
+          },
+          "school": "Udacity",
+        },
+        Object {
+          "duration": "4",
+          "effort": "4",
+          "frequency": "Once a month",
+          "name": Object {
+            "link": "https://www.coursera.org/learn/unix",
+            "text": "The Unix Workbench",
+          },
+          "school": "JHU",
+        },
+      ]
+    }
+    name="Unix"
+  />
 </div>
 `;
