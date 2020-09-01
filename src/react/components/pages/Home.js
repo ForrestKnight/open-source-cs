@@ -15,6 +15,7 @@ import CourseSection from '../sections/CourseSection';
 /* Data */
 import CSBasicsCourses from '../../data/CSBasicsCourses';
 import ProgrammingCourses from '../../data/ProgrammingCourses';
+import MathCourses from '../../data/MathCourses';
 
 
 /* Component */
@@ -47,6 +48,11 @@ export class Home extends React.Component {
                 <CourseSection 
                     name="Programming"
                     courses={ProgrammingCourses}
+                />
+
+                <CourseSection 
+                    name="Math"
+                    courses={MathCourses}
                 />
             </div>
         );

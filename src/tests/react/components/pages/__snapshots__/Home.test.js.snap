@@ -154,5 +154,94 @@ exports[`Render Home page 1`] = `
     }
     name="Programming"
   />
+  <CourseSection
+    courses={
+      Array [
+        Object {
+          "duration": "15",
+          "effort": "9-10",
+          "frequency": "Self-paced",
+          "name": Object {
+            "link": "https://www.edx.org/course/precalculus",
+            "text": "Pre Calculus",
+          },
+          "school": "ASU",
+        },
+        Object {
+          "duration": "12",
+          "effort": "6-10",
+          "frequency": "Self-paced",
+          "name": Object {
+            "link": "https://www.edx.org/course/calculus-1a-differentiation",
+            "text": "Calculus 1A: Differentiation",
+          },
+          "prerequisites": Array [
+            "Pre Calculus",
+          ],
+          "school": "MIT",
+        },
+        Object {
+          "duration": "15",
+          "effort": "6-10",
+          "frequency": "Self-paced",
+          "name": Object {
+            "link": "https://www.edx.org/course/calculus-1b-integration",
+            "text": "Calculus 1B: Integration",
+          },
+          "prerequisites": Array [
+            "Calculus 1A: Differentiation",
+          ],
+          "school": "MIT",
+        },
+        Object {
+          "duration": "8",
+          "effort": "6-10",
+          "frequency": "Self-paced",
+          "name": Object {
+            "link": "https://www.edx.org/course/calculus-1c-coordinate-systems-infinite-series",
+            "text": "Calculus 1C: Coordinate Systems & Infinite Series",
+          },
+          "prerequisites": Array [
+            "Calculus 1B: Integration",
+          ],
+          "school": "MIT",
+        },
+        Object {
+          "duration": "15",
+          "effort": "6-10",
+          "frequency": "Self-paced",
+          "name": Object {
+            "link": "https://www.edx.org/course/linear-algebra-foundations-to-frontiers",
+            "text": "Linear Algebra - Foundations to Frontiers",
+          },
+          "prerequisites": Array [
+            "Pre Calculus",
+          ],
+          "school": "UT Austin",
+        },
+        Object {
+          "duration": "5",
+          "effort": "5-7",
+          "frequency": "Twice a month",
+          "name": Object {
+            "link": "https://www.coursera.org/learn/probability-intro",
+            "text": "Introduction to Probability and Data",
+          },
+          "school": "Duke",
+        },
+        Object {
+          "duration": "8",
+          "effort": "5-7",
+          "frequency": "Self-paced",
+          "name": Object {
+            "link": "https://www.udacity.com/course/intro-to-statistics--st101",
+            "text": "Intro to Statistics",
+          },
+          "school": "Udacity",
+        },
+      ]
+    }
+    name="Math"
+  />
 </div>
 `;
