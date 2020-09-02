@@ -15,3 +15,8 @@
         max-width: 1500px;
     }
 }
+
+
+.page {
+    @include page;
+}
