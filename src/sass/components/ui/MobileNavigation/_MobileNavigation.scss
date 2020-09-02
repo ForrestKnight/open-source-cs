@@ -39,7 +39,7 @@
         display: block;
         opacity: 1;
         transition: 200ms;
-        background: desaturate(darken($primaryColor, 35%), 70%);
+        background: $primaryColor_dark;
         z-index: 7;
         width: 100%;
         height: 100%;
