@@ -11,8 +11,14 @@ import Footer from '../components/common/Footer';
 
 /* Pages/Routes */
 import Home from '../components/pages/Home';
+import CSBasics from '../components/pages/CSBasics';
+import Programming from '../components/pages/Programming';
+import Math from '../components/pages/Math';
+import Systems from '../components/pages/Systems';
+import Theory from '../components/pages/Theory';
+import Applications from '../components/pages/Applications';
+import Unix from '../components/pages/Unix';
 import Wildcard from '../components/pages/Wildcard';
-import StyleGuide from '../components/pages/StyleGuide';
 
 
 /* Router */
@@ -66,8 +72,44 @@ export class Router extends React.Component {
                         />
 
                         <Route 
-                            path="/StyleGuide"
-                            component={StyleGuide}
+                            path="/cs-basics"
+                            component={CSBasics}
+                            exact
+                        />
+
+                        <Route 
+                            path="/programming"
+                            component={Programming}
+                            exact
+                        />
+
+                        <Route 
+                            path="/math"
+                            component={Math}
+                            exact
+                        />
+
+                        <Route 
+                            path="/systems"
+                            component={Systems}
+                            exact
+                        />
+
+                        <Route 
+                            path="/theory"
+                            component={Theory}
+                            exact
+                        />
+
+                        <Route 
+                            path="/applications"
+                            component={Applications}
+                            exact
+                        />
+
+                        <Route 
+                            path="/unix"
+                            component={Unix}
                             exact
                         />
 

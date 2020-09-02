@@ -17,7 +17,37 @@ exports[`Render Router 1`] = `
       <Route
         component={[Function]}
         exact={true}
-        path="/StyleGuide"
+        path="/cs-basics"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/programming"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/math"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/systems"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/theory"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/applications"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/unix"
       />
       <Route
         component={[Function]}

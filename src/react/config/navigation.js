@@ -10,13 +10,33 @@ export default [
         text: "Home",
         internal: true
     }, {
-        href: "/StyleGuide",
-        text: "Style Guide",
+        href: "/cs-basics",
+        text: "CS Basics",
         internal: true
     }, {
-        text: "Meet the Dev",
-        href: "https://bergers.dev",
-        internal: false
+        href: "/programming",
+        text: "Programming",
+        internal: true
+    }, {
+        href: "/math",
+        text: "Math",
+        internal: true
+    }, {
+        href: "/systems",
+        text: "Systems",
+        internal: true
+    }, {
+        href: "/theory",
+        text: "Theory",
+        internal: true
+    }, {
+        href: "/applications",
+        text: "Applications",
+        internal: true
+    }, {
+        href: "/unix",
+        text: "Unix",
+        internal: true
     }, {
         text: "View on GitHub",
         href: "https://github.com/RobbyB97/JavascriptReactBoilerplate",

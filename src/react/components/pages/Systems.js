@@ -8,18 +8,22 @@ import {page_ID__Set} from '../../redux/actions/page';
 
 
 /* Components */
-import Description from '../sections/Description';
+import CourseSection from '../sections/CourseSection';
+
+
+/* Data */
+import SystemsCourses from '../../data/SystemsCourses';
 
 
 /* Component */
-export class Home extends React.Component {
+export class Systems extends React.Component {
     constructor(props) {
         super(props);
     }
 
 
     componentWillMount() {
-        this.page_ID__Set('Home');
+        this.page_ID__Set('Systems');
     }
 
 
@@ -30,8 +34,11 @@ export class Home extends React.Component {
 
     render() {
         return (
-            <div id="Home" className="Home">
-                <Description />
+            <div id="Systems" className="page">
+                <CourseSection 
+                    name="Systems"
+                    courses={SystemsCourses}
+                />
             </div>
         );
     }
@@ -46,4 +53,4 @@ const mapDispatchToProps = (dispatch) => ({
 });
 
 
-export default connect(undefined, mapDispatchToProps)(Home);
+export default connect(undefined, mapDispatchToProps)(Systems);

@@ -14,14 +14,39 @@ exports[`Render Navigation component 1`] = `
           "text": "Home",
         },
         Object {
-          "href": "/StyleGuide",
+          "href": "/cs-basics",
           "internal": true,
-          "text": "Style Guide",
+          "text": "CS Basics",
         },
         Object {
-          "href": "https://bergers.dev",
-          "internal": false,
-          "text": "Meet the Dev",
+          "href": "/programming",
+          "internal": true,
+          "text": "Programming",
+        },
+        Object {
+          "href": "/math",
+          "internal": true,
+          "text": "Math",
+        },
+        Object {
+          "href": "/systems",
+          "internal": true,
+          "text": "Systems",
+        },
+        Object {
+          "href": "/theory",
+          "internal": true,
+          "text": "Theory",
+        },
+        Object {
+          "href": "/applications",
+          "internal": true,
+          "text": "Applications",
+        },
+        Object {
+          "href": "/unix",
+          "internal": true,
+          "text": "Unix",
         },
         Object {
           "href": "https://github.com/RobbyB97/JavascriptReactBoilerplate",
@@ -40,14 +65,39 @@ exports[`Render Navigation component 1`] = `
           "text": "Home",
         },
         Object {
-          "href": "/StyleGuide",
+          "href": "/cs-basics",
           "internal": true,
-          "text": "Style Guide",
+          "text": "CS Basics",
         },
         Object {
-          "href": "https://bergers.dev",
-          "internal": false,
-          "text": "Meet the Dev",
+          "href": "/programming",
+          "internal": true,
+          "text": "Programming",
+        },
+        Object {
+          "href": "/math",
+          "internal": true,
+          "text": "Math",
+        },
+        Object {
+          "href": "/systems",
+          "internal": true,
+          "text": "Systems",
+        },
+        Object {
+          "href": "/theory",
+          "internal": true,
+          "text": "Theory",
+        },
+        Object {
+          "href": "/applications",
+          "internal": true,
+          "text": "Applications",
+        },
+        Object {
+          "href": "/unix",
+          "internal": true,
+          "text": "Unix",
         },
         Object {
           "href": "https://github.com/RobbyB97/JavascriptReactBoilerplate",
