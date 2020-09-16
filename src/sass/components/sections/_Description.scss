@@ -3,11 +3,48 @@
 }
 
 
+.Description__header {
+    @include pageHeader;
+    text-align: center;
+}
+
+
 .Description__title {
 
 }
 
 
 .Description__description {
-    
+    text-align: center;
+
+
+    p {
+        margin: 20px auto;
+        max-width: 768px;
+    }
+}
+
+
+.Description__videoPhone {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+
+
+    @media #{$tablet_breakpoint} {
+        display: none;
+    }
+}
+
+
+.Description__videoTablet {
+    display: none;
+
+
+    @media #{$tablet_breakpoint} {
+        width: 560px;
+        display: block;
+        margin: 0 auto;
+    }
 }
