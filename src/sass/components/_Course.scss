@@ -1,3 +1,49 @@
 .Course {
+    background: lighten($white, 5%);
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    margin-bottom: 16px;
+
+    @media #{$tablet_breakpoint} {
+        width: 400px;
+        padding: 16px;
+    }
+
     
+    @media #{$desktop_breakpoint} {
+        display: inline-block;
+        padding: 0 16px;
+        padding-bottom: 16px; 
+        margin: 0 20px;
+        margin-bottom: 32px;
+    }
+}
+
+
+.Course__school {
+    @include courseDetail;
+}
+
+
+.Course__duration {
+    @include courseDetail;
+}
+
+
+.Course__effort {
+    @include courseDetail;
+}
+
+
+.Course__frequency {
+    @include courseDetail;
+}
+
+
+.Course__prerequisites {
+    @include courseDetail;
 }

@@ -11,36 +11,39 @@ export class Course extends React.Component {
 
     render() {
         return (
-            <div className="Course">
-                <a 
-                    className="Course__name"
-                    href={this.props.name.link}
-                >
-                    <h3>{this.props.name.text}</h3>
-                </a>
-
+            <a 
+                className="Course"
+                href={this.props.name.link}    
+            >
+                <h3>{this.props.name.text}</h3>
+            
                 <p className="Course__school">
-                    {this.props.school}
+                    School: <mark>{this.props.school}</mark>
                 </p>
 
                 <p className="Course__duration">
-                    {this.props.duration} weeks
+                    Duration: <mark>{this.props.duration} weeks</mark>
                 </p>
 
                 <p className="Course__effort">
-                    {this.props.effort} hours/week
+                    Effort: <mark>{this.props.effort} hours/week</mark>
                 </p>
 
                 <p className="Course__frequency">
-                    {this.props.frequency}
+                    Frequency: <mark>{this.props.frequency}</mark>
                 </p>
 
                 {this.props.prerequisites &&
                     <div className="Course__prerequisites">
-                        <p>{this.props.prerequisites}</p>
+                        Prereq{this.props.prerequisites.length > 1 && 's'}: 
+                        {this.props.prerequisites.map((prereq) => (
+                            <mark>
+                                {prereq}
+                            </mark>
+                        ))}
                     </div>
                 }
-            </div>
+            </a>
         );
     }
 }
