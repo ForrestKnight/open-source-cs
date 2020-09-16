@@ -1,5 +1,7 @@
 # The Open Source Computer Science Degree
 
+This repository hosts the code for a [React app version of the Open Source CS project](https://open-source-cs.web.app).
+
 This is a curated list of free courses from reputable universities like MIT, Stanford, and Princeton that satisfy the same requirements as an undergraduate Computer Science degree, minus general education.
 
 ## Computer Science Basics
