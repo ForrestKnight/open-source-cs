@@ -1,19 +1,80 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Render Description section 1`] = `
-<div
+<section
   className="Description"
   id="Description"
 >
-  <h1
-    className="Description__title"
+  <header
+    className="Description__header"
   >
-    The Open Source Computer Science Degree
-  </h1>
-  <p
+    <h1
+      className="Description__title"
+    >
+      The Open Source Computer Science Degree
+    </h1>
+  </header>
+  <section
     className="Description__description"
   >
-    This is a curated list of free courses from reputable universities like MIT, Stanford, and Princeton that satisfy the same requirements as an undergraduate Computer Science degree, minus general education.
-  </p>
-</div>
+    <p>
+      This is a curated list of free courses from reputable universities like MIT, Stanford, and Princeton that satisfy the same requirements as an undergraduate Computer Science degree, minus general education.
+    </p>
+    <figure
+      className="Description__videoPhone"
+    >
+      <iframe
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen={true}
+        frameborder="0"
+        height="168"
+        src="https://www.youtube.com/embed/NyOvFSP_IpQ"
+        width="300"
+      />
+      <figcaption>
+        YouTuber 
+        <a
+          href="https://www.youtube.com/channel/UC2WHjPDvbE6O328n17ZGcfg"
+        >
+          Forrest Knight
+        </a>
+         explains the concept of Open Source CS
+      </figcaption>
+    </figure>
+    <figure
+      className="Description__videoTablet"
+    >
+      <iframe
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen={true}
+        frameborder="0"
+        height="315"
+        src="https://www.youtube.com/embed/NyOvFSP_IpQ"
+        width="560"
+      />
+      <figcaption>
+        YouTuber 
+        <a
+          href="https://www.youtube.com/channel/UC2WHjPDvbE6O328n17ZGcfg"
+          rel="noopener"
+          target="_blank"
+        >
+          Forrest Knight
+        </a>
+         explains the concept of Open Source CS
+      </figcaption>
+    </figure>
+    <p>
+      The 
+      <a
+        href="https://github.com/ForrestKnight/open-source-cs"
+        rel="noopener"
+        target="_blank"
+      >
+        original Open Source CS repository
+      </a>
+       is just a table in a README file on GitHub. This website gives a more accessible and responsive alternative.
+    </p>
+  </section>
+</section>
 `;

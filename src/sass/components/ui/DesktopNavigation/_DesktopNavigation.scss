@@ -9,7 +9,7 @@
 
 .DesktopNavigation__nav {
     position: fixed;
-    right: 1.5em;
+    left: 80px;
     top: 2em;
     z-index: 8;
 }
@@ -22,7 +22,7 @@
     flex-direction: row;
     margin-top: 0;
     margin-bottom: 0;
-    width: calc(100vw - 120px);
+    width: calc(100vw - 150px);
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }

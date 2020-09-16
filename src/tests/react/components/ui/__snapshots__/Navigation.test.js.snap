@@ -9,11 +9,6 @@ exports[`Render Navigation component 1`] = `
     links={
       Array [
         Object {
-          "href": "/",
-          "internal": true,
-          "text": "Home",
-        },
-        Object {
           "href": "/cs-basics",
           "internal": true,
           "text": "CS Basics",
@@ -59,11 +54,6 @@ exports[`Render Navigation component 1`] = `
   <Connect(MobileNavigation)
     links={
       Array [
-        Object {
-          "href": "/",
-          "internal": true,
-          "text": "Home",
-        },
         Object {
           "href": "/cs-basics",
           "internal": true,
