@@ -6,10 +6,6 @@
 
 export default [
     {
-        href: "/",
-        text: "Home",
-        internal: true
-    }, {
         href: "/cs-basics",
         text: "CS Basics",
         internal: true
