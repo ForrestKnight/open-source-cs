@@ -14,7 +14,7 @@ export class CourseSection extends React.Component {
         return (
             <article id={this.props.name.replace(/\s/g, "")} className="CourseSection">
                 <header className="CourseSection__header">
-                    <h2>{this.props.name}</h2>
+                    <h1>{this.props.name}</h1>
                 </header>
 
                 <section className="CourseSection__courses">

@@ -1,3 +1,30 @@
 .CourseSection {
-    
+
+}
+
+
+.CourseSection__header {
+    @include pageHeader;
+    text-align: center;
+}
+
+
+.CourseSection__courses {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+
+
+    @media #{$tablet_breakpoint} {
+        max-width: 100%;
+    }
+
+
+    @media #{$desktop_breakpoint} {
+        flex-direction: row;
+    }
 }
