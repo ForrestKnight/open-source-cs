@@ -5,7 +5,7 @@ const chalk = require('chalk');
 
 
 /* Local files */
-const publicPath = path.join(__dirname, '../../public/');
+const publicPath = path.join(__dirname, '../../docs/');
 const appRoute = path.join(publicPath, 'index.html');
 const wildcardRoute = path.join(publicPath, '404.html');
 
