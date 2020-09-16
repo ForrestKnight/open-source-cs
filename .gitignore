@@ -15,9 +15,8 @@ node_modules/
 # Source maps
 *.map
 
-# Bundle output
-public/dist/bundle.css
-public/dist/bundle.js
+docs/dist/bundle.css
+docs/dist/bundle.js
 
 # Firebase
 /.firebase/
