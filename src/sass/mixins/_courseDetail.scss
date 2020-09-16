@@ -1,0 +1,11 @@
+@mixin courseDetail {
+    text-align: left;
+    color: lighten($textColor, 40%);
+    font-size: 14px;
+
+    mark {
+        background: none;
+        color: $textColor;
+        font-size: 16px;
+    }
+}

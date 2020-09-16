@@ -10,7 +10,9 @@
 
 /* Mixins */
 @import
-    './mixins/page';
+    './mixins/page',
+    './mixins/pageHeader',
+    './mixins/courseDetail';
 
 
 /* Common Components */
