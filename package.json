@@ -12,7 +12,7 @@
     "build:prod": "webpack -p --env production",
     "test": "jest --config=jest.config.json",
     "test:watch": "npm run test -- --watch",
-    "deploy": "gh-pages -d build"
+    "deploy:firebase": "npm run build:prod & firebase deploy"
   },
   "repository": {
     "type": "git",
