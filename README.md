@@ -74,11 +74,6 @@ Courses | School | Duration | Effort | Frequency | Prerequisites
 
 Courses | School | Duration | Effort | Frequency | Prerequisites
 :-- | :--: | :--: | :--: | :--: | :--:
-[Internet Connection: How to Get Online?](https://www.coursera.org/learn/internet-connection-how-to-get-online?specialization=networking-basics) | CISCO | 4 weeks | 2.5-5 hours/week | self-paced | none
-[Network Protocols and Architecture](https://www.coursera.org/learn/network-protocols-architecture?specialization=networking-basics) | CISCO | 4 weeks | 2.5-5 hours/week | self-paced | Internet Connection: How to Get Online?
-[Data Communications and Network Services](https://www.coursera.org/learn/data-communication-network-services?specialization=networking-basics) | CISCO | 4 weeks | 2.5-5 hours/week | self-paced | Network Protocols and Architecture
-[Home Networking Basics](https://www.coursera.org/learn/home-networking-basics?specialization=networking-basics) | CISCO | 4 weeks | 2.5-5 hours/week | self-paced | Data Communications and Network Services
-[Introduction to Cisco Networking](https://www.coursera.org/learn/cisco-networking-introduction) | CISCO | 4 weeks | 4-7 hours/week | self-paced | Home Networking Basics
 [System Administration and IT Infrastructure Services](https://www.coursera.org/learn/system-administration-it-infrastructure-services) | GOOGLE | 2 weeks | 8-10 hours/week | self-paced | none
 
 ## Cybersecurity
