@@ -67,3 +67,20 @@ Courses | School | Duration | Effort | Frequency | Prerequisites
 :-- | :--: | :--: | :--: | :--: | :--:
 [Linux Command Line Basics](https://imp.i115008.net/linux-command-line-basics) | Udacity | 1 week | 5 hours/week | self-paced | none
 [The Unix Workbench](https://imp.i384100.net/QOXZ4P) | JHU | 4 weeks | 4 hours/week | once a month | none
+[Version Control with Git](https://www.coursera.org/learn/version-control-with-git) | Atlassian | 2 weeks | 8 hours/week |self-paced | none
+[Linux Server Management and Security](https://www.coursera.org/learn/linux-server-management-security) | UC | 3 weeks | 5 hours/week |self-paced | Linux Command Line Basics
+
+## Networking
+
+Courses | School | Duration | Effort | Frequency | Prerequisites
+:-- | :--: | :--: | :--: | :--: | :--:
+[System Administration and IT Infrastructure Services](https://www.coursera.org/learn/system-administration-it-infrastructure-services) | GOOGLE | 2 weeks | 8-10 hours/week | self-paced | none
+
+## Cybersecurity
+
+Courses | School | Duration | Effort | Frequency | Prerequisites
+:-- | :--: | :--: | :--: | :--: | :--:
+[Introduction to Cybersecurity for Business](https://www.coursera.org/learn/intro-cyber-security-business) | UC | 3 weeks | 5 hours/week | self-paced | none
+[Cyber Threats and Attack Vectors](https://www.coursera.org/learn/cyber-threats-attack-vectors) | UC | 3 weeks | 4 hours/week | self-paced | Introduction to Cybersecurity for Business
+[Detecting and Mitigating Cyber Threats and Attacks](https://www.coursera.org/learn/detecting-cyber-attacks) | UC | 3 weeks | 4 hours/week | self-paced | Cyber Threats and Attack Vectors
+[Proactive Computer Security](https://www.coursera.org/learn/proactive-computer-security) | UC | 3 weeks | 4 hours/week | self-paced | Detecting and Mitigating Cyber Threats and Attacks
