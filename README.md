@@ -22,6 +22,12 @@ Courses | School | Duration | Effort | Frequency | Prerequisites
 [Programming Languages, Part B](https://imp.i384100.net/2rebMz) | UW | 3 weeks | 8-16 hours/week | once a month | Programming Languages, Part A
 [Programming Languages, Part C](https://imp.i384100.net/Ryogm9) | UW | 3 weeks | 8-16 hours/week | once a month | Programming Languages, Part B
 
+## Web Development
+
+Courses | School | Duration | Effort | Frequency | Prerequisites
+:-- | :--: | :--: | :--: | :--: | :--:
+[Full Stack by ANgela Yu](https://www.udemy.com/course/the-complete-web-development-bootcamp/)| Duke | 4 weeks | 3-4 hours/day | everyday | none
+
 ## Math
 
 Courses | School | Duration | Effort | Frequency | Prerequisites
