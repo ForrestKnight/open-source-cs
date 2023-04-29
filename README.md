@@ -26,7 +26,7 @@ Courses | School | Duration | Effort | Frequency | Prerequisites
 
 Courses | School | Duration | Effort | Frequency | Prerequisites
 :-- | :--: | :--: | :--: | :--: | :--:
-[Full Stack by ANgela Yu](https://www.udemy.com/course/the-complete-web-development-bootcamp/)| Duke | 4 weeks | 3-4 hours/day | everyday | none
+[Full Stack by IBM](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer)| Duke | 4 months | 3-4 hours/day | everyday | none
 
 ## Math
 
