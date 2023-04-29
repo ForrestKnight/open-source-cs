@@ -22,6 +22,12 @@ Courses | School | Duration | Effort | Frequency | Prerequisites
 [Programming Languages, Part B](https://imp.i384100.net/2rebMz) | UW | 3 weeks | 8-16 hours/week | once a month | Programming Languages, Part A
 [Programming Languages, Part C](https://imp.i384100.net/Ryogm9) | UW | 3 weeks | 8-16 hours/week | once a month | Programming Languages, Part B
 
+## Web Development
+
+Courses | School | Duration | Effort | Frequency | Prerequisites
+:-- | :--: | :--: | :--: | :--: | :--:
+[Full Stack by IBM](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer)| Duke | 4 months | 3-4 hours/day | everyday | none
+
 ## Math
 
 Courses | School | Duration | Effort | Frequency | Prerequisites
