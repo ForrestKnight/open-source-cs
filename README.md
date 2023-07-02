@@ -18,7 +18,7 @@ Courses | School | Duration | Effort | Frequency | Prerequisites
 [Data Structures and Performance](https://imp.i384100.net/oevm0b)| Duke | 6 weeks | 6-10 hours/week | every week | Object Oriented Programming in Java
 [Java Programming: Principles of Software Design](https://imp.i384100.net/zavZrO) | Duke | 4 weeks | 4-8 hours/week | twice a month | Java Programming: Arrays, Lists, and Structured Data
 [Java Programming: Build a Recommendation System](https://imp.i384100.net/n1vro6) | Duke | 4 weeks | 3-6 hours/week | once a month | Java Programming: Principles of Software Design
-[Programming Languages, Part A](imp.i384100.net/6b13oK) | UW | 5 weeks | 8-16 hours/week | once a month | Object Oriented Programming in Java
+[Programming Languages, Part A](https://imp.i384100.net/6b13oK) | UW | 5 weeks | 8-16 hours/week | once a month | Object Oriented Programming in Java
 [Programming Languages, Part B](https://imp.i384100.net/2rebMz) | UW | 3 weeks | 8-16 hours/week | once a month | Programming Languages, Part A
 [Programming Languages, Part C](https://imp.i384100.net/Ryogm9) | UW | 3 weeks | 8-16 hours/week | once a month | Programming Languages, Part B
 
