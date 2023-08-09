@@ -26,10 +26,9 @@ Courses | School | Duration | Effort | Frequency | Prerequisites
 
 Courses | School | Duration | Effort | Frequency | Prerequisites
 :-- | :--: | :--: | :--: | :--: | :--:
-[Calculus 1A: Differentiation](https://www.edx.org/course/calculus-1a-differentiation) | MIT | 12 weeks | 6-10 hours/week | self-paced | [pre-calculus](https://www.edx.org/course/precalculus-asux-mat170x)
-[Calculus 1B: Integration](https://www.edx.org/course/calculus-1b-integration) | MIT | 15 weeks | 6-10 hours/week | self-paced | Calculus 1A: Differentiation
-[Calculus 1C: Coordinate Systems & Infinite Series](https://www.edx.org/course/calculus-1c-coordinate-systems-infinite-mitx-18-01-3x-0)| MIT | 8 weeks | 6-10 hours/week | self-paced | Calculus 1B: Integration
-[Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-to-frontiers) | UT Austin | 15 weeks | 6-10 hours/week | self-paced | [pre-calculus](https://www.edx.org/course/precalculus-asux-mat170x)
+[Mathematics 1 Part 1: Differential Calculus](https://www.edx.org/learn/math/the-london-school-of-economics-and-political-science-mathematics-1-part-1-differential-calculus) | LSE | 5 weeks | 12-15 hours/week | self-paced | [LSE Pre-Calculus](https://www.edx.org/course/an-introduction-to-pre-university-mathematics)
+[Mathematics 1 Part 2: Integral Calculus, Algebra, and Applications](https://www.edx.org/course/maths-1b) | LSE | 5 weeks | 12-15 hours/week | self-paced | Mathematics 1 Part 1: Differential Calculus
+[Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-to-frontiers) | UT Austin | 15 weeks | 6-10 hours/week | self-paced | [ASU Pre-Calculus](https://www.edx.org/course/precalculus-asux-mat170x)
 [Introduction to Probability and Data](https://imp.i384100.net/9WZ4E0) | Duke | 5 weeks | 5-7 hours/week | twice a month | none
 [Intro to Statistics ](https://imp.i115008.net/intro-to-statistics) | Udacity | 8 weeks | 5-7 hours/week | self-paced | none
 
