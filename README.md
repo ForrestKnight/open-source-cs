@@ -18,7 +18,7 @@ Courses | School | Duration | Effort | Frequency | Prerequisites
 [Data Structures and Performance](https://imp.i384100.net/oevm0b)| Duke | 6 weeks | 6-10 hours/week | every week | Object Oriented Programming in Java
 [Java Programming: Principles of Software Design](https://imp.i384100.net/zavZrO) | Duke | 4 weeks | 4-8 hours/week | twice a month | Java Programming: Arrays, Lists, and Structured Data
 [Java Programming: Build a Recommendation System](https://imp.i384100.net/n1vro6) | Duke | 4 weeks | 3-6 hours/week | once a month | Java Programming: Principles of Software Design
-[Programming Languages, Part A](imp.i384100.net/6b13oK) | UW | 5 weeks | 8-16 hours/week | once a month | Object Oriented Programming in Java
+[Programming Languages, Part A](http://imp.i384100.net/6b13oK) | UW | 5 weeks | 8-16 hours/week | once a month | Object Oriented Programming in Java
 [Programming Languages, Part B](https://imp.i384100.net/2rebMz) | UW | 3 weeks | 8-16 hours/week | once a month | Programming Languages, Part A
 [Programming Languages, Part C](https://imp.i384100.net/Ryogm9) | UW | 3 weeks | 8-16 hours/week | once a month | Programming Languages, Part B
 
@@ -26,9 +26,9 @@ Courses | School | Duration | Effort | Frequency | Prerequisites
 
 Courses | School | Duration | Effort | Frequency | Prerequisites
 :-- | :--: | :--: | :--: | :--: | :--:
-[Calculus 1A: Differentiation](https://www.edx.org/course/calculus-1a-differentiation) | MIT | 12 weeks | 6-10 hours/week | self-paced | [pre-calculus](https://www.edx.org/course/precalculus-asux-mat170x)
-[Calculus 1B: Integration](https://www.edx.org/course/calculus-1b-integration) | MIT | 15 weeks | 6-10 hours/week | self-paced | Calculus 1A: Differentiation
-[Calculus 1C: Coordinate Systems & Infinite Series](https://www.edx.org/course/calculus-1c-coordinate-systems-infinite-mitx-18-01-3x-0)| MIT | 8 weeks | 6-10 hours/week | self-paced | Calculus 1B: Integration
+[Calculus 1A: Differentiation]( https://openlearninglibrary.mit.edu/courses/course-v1:MITx+18.01.1x+2T2019/course/) | MIT | 12 weeks | 6-10 hours/week | self-paced | [pre-calculus](https://www.edx.org/course/precalculus-asux-mat170x)
+[Calculus 1B: Integration](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+18.01.2x+3T2019/course/) | MIT | 15 weeks | 6-10 hours/week | self-paced | Calculus 1A: Differentiation
+[Calculus 1C: Coordinate Systems & Infinite Series](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+18.01.3x+1T2020/course/)| MIT | 8 weeks | 6-10 hours/week | self-paced | Calculus 1B: Integration
 [Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-to-frontiers) | UT Austin | 15 weeks | 6-10 hours/week | self-paced | [pre-calculus](https://www.edx.org/course/precalculus-asux-mat170x)
 [Introduction to Probability and Data](https://imp.i384100.net/9WZ4E0) | Duke | 5 weeks | 5-7 hours/week | twice a month | none
 [Intro to Statistics ](https://imp.i115008.net/intro-to-statistics) | Udacity | 8 weeks | 5-7 hours/week | self-paced | none
